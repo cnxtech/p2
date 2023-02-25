@@ -31,42 +31,42 @@ github.com/circonus-labs/circonus-gometrics/checkmgr
 github.com/circonus-labs/circonusllhist
 # github.com/davecgh/go-spew v1.1.0
 github.com/davecgh/go-spew/spew
-# github.com/docker/distribution v0.0.0-20170127234254-fb0bebc4b64e
-github.com/docker/distribution/reference
+# github.com/docker/distribution v2.8.0+incompatible
 github.com/docker/distribution/digestset
+github.com/docker/distribution/reference
 # github.com/docker/docker v0.0.0-20170504205632-89658bed64c2
-github.com/docker/docker/client
-github.com/docker/docker/api/types
-github.com/docker/docker/api/types/container
-github.com/docker/docker/api/types/filters
-github.com/docker/docker/api/types/network
-github.com/docker/docker/api/types/strslice
 github.com/docker/docker/api
+github.com/docker/docker/api/types
+github.com/docker/docker/api/types/blkiodev
+github.com/docker/docker/api/types/container
 github.com/docker/docker/api/types/events
+github.com/docker/docker/api/types/filters
 github.com/docker/docker/api/types/image
+github.com/docker/docker/api/types/mount
+github.com/docker/docker/api/types/network
 github.com/docker/docker/api/types/registry
+github.com/docker/docker/api/types/strslice
 github.com/docker/docker/api/types/swarm
 github.com/docker/docker/api/types/time
 github.com/docker/docker/api/types/versions
 github.com/docker/docker/api/types/volume
-github.com/docker/docker/pkg/tlsconfig
-github.com/docker/docker/api/types/mount
-github.com/docker/docker/api/types/blkiodev
-github.com/docker/docker/pkg/ioutils
-github.com/docker/docker/pkg/system
-github.com/docker/docker/pkg/longpath
+github.com/docker/docker/client
 github.com/docker/docker/opts
 github.com/docker/docker/pkg/archive
 github.com/docker/docker/pkg/fileutils
 github.com/docker/docker/pkg/homedir
-github.com/docker/docker/pkg/stdcopy
 github.com/docker/docker/pkg/idtools
+github.com/docker/docker/pkg/ioutils
+github.com/docker/docker/pkg/longpath
 github.com/docker/docker/pkg/pools
 github.com/docker/docker/pkg/promise
+github.com/docker/docker/pkg/stdcopy
+github.com/docker/docker/pkg/system
+github.com/docker/docker/pkg/tlsconfig
 # github.com/docker/go-connections v0.0.0-20170101210128-eb315e364153
-github.com/docker/go-connections/tlsconfig
-github.com/docker/go-connections/sockets
 github.com/docker/go-connections/nat
+github.com/docker/go-connections/sockets
+github.com/docker/go-connections/tlsconfig
 # github.com/docker/go-units v0.0.0-20160802145505-eb879ae3e2b8
 github.com/docker/go-units
 # github.com/docker/libtrust v0.0.0-20160708172513-aabc10ec26b7
@@ -86,20 +86,20 @@ github.com/gorilla/context
 # github.com/gorilla/mux v0.0.0-20160317213430-0eeaf8392f5b
 github.com/gorilla/mux
 # github.com/hashicorp/consul v0.7.0
+github.com/hashicorp/consul/acl
 github.com/hashicorp/consul/api
 github.com/hashicorp/consul/command/agent
 github.com/hashicorp/consul/consul
-github.com/hashicorp/consul/testutil
+github.com/hashicorp/consul/consul/agent
+github.com/hashicorp/consul/consul/prepared_query
+github.com/hashicorp/consul/consul/servers
 github.com/hashicorp/consul/consul/state
 github.com/hashicorp/consul/consul/structs
 github.com/hashicorp/consul/lib
+github.com/hashicorp/consul/testutil
 github.com/hashicorp/consul/tlsutil
 github.com/hashicorp/consul/types
 github.com/hashicorp/consul/watch
-github.com/hashicorp/consul/acl
-github.com/hashicorp/consul/consul/agent
-github.com/hashicorp/consul/consul/servers
-github.com/hashicorp/consul/consul/prepared_query
 # github.com/hashicorp/errwrap v0.0.0-20141028054710-7554cd9344ce
 github.com/hashicorp/errwrap
 # github.com/hashicorp/go-checkpoint v0.0.0-20151022181514-e4b2dc34c0f6
@@ -129,10 +129,10 @@ github.com/hashicorp/golang-lru/simplelru
 github.com/hashicorp/hcl
 github.com/hashicorp/hcl/hcl/ast
 github.com/hashicorp/hcl/hcl/parser
-github.com/hashicorp/hcl/hcl/token
-github.com/hashicorp/hcl/json/parser
 github.com/hashicorp/hcl/hcl/scanner
 github.com/hashicorp/hcl/hcl/strconv
+github.com/hashicorp/hcl/hcl/token
+github.com/hashicorp/hcl/json/parser
 github.com/hashicorp/hcl/json/scanner
 github.com/hashicorp/hcl/json/token
 # github.com/hashicorp/hil v0.0.0-20160711231837-1e86c6b523c5
@@ -149,8 +149,8 @@ github.com/hashicorp/raft
 # github.com/hashicorp/raft-boltdb v0.0.0-20150201200839-d1e82c1ec3f1
 github.com/hashicorp/raft-boltdb
 # github.com/hashicorp/scada-client v0.0.0-20160601224023-6e896784f66f
-github.com/hashicorp/scada-client/scada
 github.com/hashicorp/scada-client
+github.com/hashicorp/scada-client/scada
 # github.com/hashicorp/serf v0.0.0-20160809014204-114430d82108
 github.com/hashicorp/serf/coordinate
 github.com/hashicorp/serf/serf
@@ -183,49 +183,49 @@ github.com/pkg/errors
 github.com/rcrowley/go-metrics
 github.com/rcrowley/go-metrics/exp
 # golang.org/x/crypto v0.0.0-20170107180030-c3b1d0d6d869
-golang.org/x/crypto/ssh
-golang.org/x/crypto/openpgp
-golang.org/x/crypto/openpgp/armor
-golang.org/x/crypto/openpgp/errors
-golang.org/x/crypto/openpgp/packet
-golang.org/x/crypto/openpgp/clearsign
+golang.org/x/crypto/cast5
 golang.org/x/crypto/curve25519
 golang.org/x/crypto/ed25519
-golang.org/x/crypto/openpgp/s2k
-golang.org/x/crypto/cast5
-golang.org/x/crypto/openpgp/elgamal
 golang.org/x/crypto/ed25519/internal/edwards25519
+golang.org/x/crypto/openpgp
+golang.org/x/crypto/openpgp/armor
+golang.org/x/crypto/openpgp/clearsign
+golang.org/x/crypto/openpgp/elgamal
+golang.org/x/crypto/openpgp/errors
+golang.org/x/crypto/openpgp/packet
+golang.org/x/crypto/openpgp/s2k
+golang.org/x/crypto/ssh
 # golang.org/x/net v0.0.0-20181011144130-49bb7cea24b1
 golang.org/x/net/context
-golang.org/x/net/http2
-golang.org/x/net/trace
 golang.org/x/net/context/ctxhttp
 golang.org/x/net/http/httpguts
+golang.org/x/net/http2
 golang.org/x/net/http2/hpack
 golang.org/x/net/idna
+golang.org/x/net/internal/socks
 golang.org/x/net/internal/timeseries
 golang.org/x/net/proxy
-golang.org/x/net/internal/socks
+golang.org/x/net/trace
 # golang.org/x/sys v0.0.0-20180830151530-49385e6e1522
 golang.org/x/sys/unix
 golang.org/x/sys/windows
 # golang.org/x/text v0.3.0
 golang.org/x/text/secure/bidirule
+golang.org/x/text/transform
 golang.org/x/text/unicode/bidi
 golang.org/x/text/unicode/norm
-golang.org/x/text/transform
 # golang.org/x/time v0.0.0-20161028155119-f51c12702a4d
 golang.org/x/time/rate
 # google.golang.org/genproto v0.0.0-20180817151627-c66870c02cf8
 google.golang.org/genproto/googleapis/rpc/status
 # google.golang.org/grpc v1.15.0
 google.golang.org/grpc
-google.golang.org/grpc/credentials
-google.golang.org/grpc/codes
-google.golang.org/grpc/metadata
 google.golang.org/grpc/balancer
+google.golang.org/grpc/balancer/base
 google.golang.org/grpc/balancer/roundrobin
+google.golang.org/grpc/codes
 google.golang.org/grpc/connectivity
+google.golang.org/grpc/credentials
 google.golang.org/grpc/encoding
 google.golang.org/grpc/encoding/proto
 google.golang.org/grpc/grpclog
@@ -236,6 +236,7 @@ google.golang.org/grpc/internal/envconfig
 google.golang.org/grpc/internal/grpcrand
 google.golang.org/grpc/internal/transport
 google.golang.org/grpc/keepalive
+google.golang.org/grpc/metadata
 google.golang.org/grpc/naming
 google.golang.org/grpc/peer
 google.golang.org/grpc/resolver
@@ -244,13 +245,12 @@ google.golang.org/grpc/resolver/passthrough
 google.golang.org/grpc/stats
 google.golang.org/grpc/status
 google.golang.org/grpc/tap
-google.golang.org/grpc/balancer/base
 # gopkg.in/alecthomas/kingpin.v2 v2.2.3
 gopkg.in/alecthomas/kingpin.v2
 # gopkg.in/yaml.v2 v2.0.0-20160928153709-a5b47d31c556
 gopkg.in/yaml.v2
 # k8s.io/kubernetes v1.2.0-alpha.4
 k8s.io/kubernetes/pkg/labels
+k8s.io/kubernetes/pkg/util/errors
 k8s.io/kubernetes/pkg/util/sets
 k8s.io/kubernetes/pkg/util/validation
-k8s.io/kubernetes/pkg/util/errors
