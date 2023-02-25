@@ -70,7 +70,7 @@ require (
 	github.com/stretchr/testify v1.3.0 // indirect
 	golang.org/x/crypto v0.0.0-20170107180030-c3b1d0d6d869
 	golang.org/x/net v0.0.0-20181011144130-49bb7cea24b1
-	golang.org/x/sys v0.0.0-20180830151530-49385e6e1522
+	golang.org/x/sys v0.1.0
 	golang.org/x/time v0.0.0-20161028155119-f51c12702a4d
 	google.golang.org/grpc v1.15.0
 	gopkg.in/alecthomas/kingpin.v2 v2.2.3
