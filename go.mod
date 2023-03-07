@@ -68,9 +68,9 @@ require (
 	github.com/rcrowley/go-metrics v0.0.0-20161128210544-1f30fe9094a5
 	github.com/sergi/go-diff v1.0.0 // indirect
 	github.com/stretchr/testify v1.3.0 // indirect
-	golang.org/x/crypto v0.0.0-20170107180030-c3b1d0d6d869
-	golang.org/x/net v0.0.0-20181011144130-49bb7cea24b1
-	golang.org/x/sys v0.0.0-20180830151530-49385e6e1522
+	golang.org/x/crypto v0.0.0-20210921155107-089bfa567519
+	golang.org/x/net v0.7.0
+	golang.org/x/sys v0.5.0
 	golang.org/x/time v0.0.0-20161028155119-f51c12702a4d
 	google.golang.org/grpc v1.15.0
 	gopkg.in/alecthomas/kingpin.v2 v2.2.3
