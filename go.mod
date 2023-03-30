@@ -22,11 +22,10 @@ require (
 	github.com/docker/distribution v0.0.0-20170127234254-fb0bebc4b64e // indirect
 	github.com/docker/docker v0.0.0-20170504205632-89658bed64c2
 	github.com/docker/go-connections v0.0.0-20170101210128-eb315e364153
-	github.com/docker/go-units v0.0.0-20160802145505-eb879ae3e2b8 // indirect
 	github.com/docker/libtrust v0.0.0-20160708172513-aabc10ec26b7 // indirect
 	github.com/elazarl/go-bindata-assetfs v0.0.0-20160803192304-e1a2a7ec64b0 // indirect
 	github.com/fsouza/go-dockerclient v0.0.0-20160809012447-a53ba79627e8 // indirect
-	github.com/golang/protobuf v1.2.0
+	github.com/golang/protobuf v1.5.0
 	github.com/gorilla/context v0.0.0-20160226214623-1ea25387ff6f // indirect
 	github.com/gorilla/mux v0.0.0-20160317213430-0eeaf8392f5b
 	github.com/hashicorp/consul v0.7.0
@@ -53,7 +52,6 @@ require (
 	github.com/hashicorp/serf v0.0.0-20160809014204-114430d82108 // indirect
 	github.com/hashicorp/uuid v0.0.0-20160311170451-ebb0a03e909c // indirect
 	github.com/hashicorp/yamux v0.0.0-20160720233140-d1caa6c97c9f // indirect
-	github.com/kr/pretty v0.1.0 // indirect
 	github.com/mattn/go-isatty v0.0.0-20160806122752-66b8e73f3f5c // indirect
 	github.com/mattn/go-sqlite3 v0.0.0-20161028142218-86681de00ade
 	github.com/miekg/dns v0.0.0-20160726032027-db96a2b759cd // indirect
@@ -62,21 +60,21 @@ require (
 	github.com/mitchellh/mapstructure v0.0.0-20160808181253-ca63d7c062ee // indirect
 	github.com/mitchellh/reflectwalk v0.0.0-20150527153153-eecf4c70c626 // indirect
 	github.com/opencontainers/go-digest v1.0.0-rc1 // indirect
-	github.com/opencontainers/runc v0.0.0-20160809122204-0f764571384a
+	github.com/opencontainers/runc v1.1.5
 	github.com/pborman/uuid v0.0.0-20160209185913-a97ce2ca70fa
 	github.com/pkg/errors v0.0.0-20161029093637-248dadf4e906 // indirect
 	github.com/rcrowley/go-metrics v0.0.0-20161128210544-1f30fe9094a5
 	github.com/sergi/go-diff v1.0.0 // indirect
 	github.com/stretchr/testify v1.3.0 // indirect
 	golang.org/x/crypto v0.0.0-20170107180030-c3b1d0d6d869
-	golang.org/x/net v0.0.0-20181011144130-49bb7cea24b1
-	golang.org/x/sys v0.0.0-20180830151530-49385e6e1522
+	golang.org/x/net v0.0.0-20201224014010-6772e930b67b
+	golang.org/x/sys v0.0.0-20211116061358-0a5406a5449c
 	golang.org/x/time v0.0.0-20161028155119-f51c12702a4d
 	google.golang.org/grpc v1.15.0
 	gopkg.in/alecthomas/kingpin.v2 v2.2.3
 	gopkg.in/check.v1 v1.0.0-20180628173108-788fd7840127 // indirect
 	gopkg.in/vmihailenco/msgpack.v2 v2.9.1 // indirect
-	gopkg.in/yaml.v2 v2.0.0-20160928153709-a5b47d31c556
+	gopkg.in/yaml.v2 v2.2.2
 	k8s.io/kubernetes v1.2.0-alpha.4
 	labix.org/v2/mgo v0.0.0-20140701140051-000000000287 // indirect
 	launchpad.net/gocheck v0.0.0-20140225173054-000000000087 // indirect
