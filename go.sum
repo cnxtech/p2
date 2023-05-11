@@ -34,8 +34,8 @@ github.com/circonus-labs/circonusllhist v0.0.0-20160526043813-d724266ae527/go.mo
 github.com/client9/misspell v0.3.4/go.mod h1:qj6jICC3Q7zFZvVWo7KLAzC3yx5G7kyvSDkc90ppPyw=
 github.com/davecgh/go-spew v1.1.0 h1:ZDRjVQ15GmhC3fiQ8ni8+OwkZQO4DARzQgrnXU1Liz8=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
-github.com/docker/distribution v0.0.0-20170127234254-fb0bebc4b64e h1:9Mp/ZOqphD88GtV37GduuSA/rPQlJUZixRfTzKnqCEw=
-github.com/docker/distribution v0.0.0-20170127234254-fb0bebc4b64e/go.mod h1:J2gT2udsDAN96Uj4KfcMRqY0/ypR+oyYUYmja8H+y+w=
+github.com/docker/distribution v2.8.2-beta.1+incompatible h1:gILO60VLD2v28ozemv4aAwDb8ds5U2O/vD/sBXbd7Rw=
+github.com/docker/distribution v2.8.2-beta.1+incompatible/go.mod h1:J2gT2udsDAN96Uj4KfcMRqY0/ypR+oyYUYmja8H+y+w=
 github.com/docker/docker v0.0.0-20170504205632-89658bed64c2 h1:kHRF20b5JAKgm0QPXsIlq7y0YfkcwORvqo6489vlVfo=
 github.com/docker/docker v0.0.0-20170504205632-89658bed64c2/go.mod h1:eEKB0N0r5NX/I1kEveEz05bcu8tLC/8azJZsviup8Sk=
 github.com/docker/go-connections v0.0.0-20170101210128-eb315e364153 h1:A7ofxgC9/VlD5fzgfAy3bmlWysd+zfJ8pegPxsvJoNE=

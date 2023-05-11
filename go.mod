@@ -19,7 +19,7 @@ require (
 	github.com/boltdb/bolt v1.2.1 // indirect
 	github.com/circonus-labs/circonus-gometrics v0.0.0-20160722172710-a7c30e0dcc6e // indirect
 	github.com/circonus-labs/circonusllhist v0.0.0-20160526043813-d724266ae527 // indirect
-	github.com/docker/distribution v0.0.0-20170127234254-fb0bebc4b64e // indirect
+	github.com/docker/distribution v2.8.2-beta.1+incompatible // indirect
 	github.com/docker/docker v0.0.0-20170504205632-89658bed64c2
 	github.com/docker/go-connections v0.0.0-20170101210128-eb315e364153
 	github.com/docker/go-units v0.0.0-20160802145505-eb879ae3e2b8 // indirect
